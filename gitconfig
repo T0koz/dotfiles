@@ -60,3 +60,6 @@
 
 [init]
   defaultBranch = master
+[user]
+	email = thomascozianpro@gmail.com
+	name = Thomas Cozian
