@@ -88,3 +88,9 @@ fi
 
 # Hook direnv but only if direnv is installed
 if (( $+commands[direnv] )); then eval "$(direnv hook zsh)"; fi
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/thomascozian/google-cloud-sdk/path.zsh.inc' ]; then . '/Users/thomascozian/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/thomascozian/google-cloud-sdk/completion.zsh.inc' ]; then . '/Users/thomascozian/google-cloud-sdk/completion.zsh.inc'; fi
